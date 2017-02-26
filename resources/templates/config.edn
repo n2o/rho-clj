@@ -18,7 +18,7 @@
  :sass-path          "sass"
  :compass-path       "compass"
  :theme              "rho"
- :resources          ["img"]
+ :resources          ["img" "bower_components"]
  :keep-files         [".git"]
  :disqus?            false
  :disqus-shortname   ""
