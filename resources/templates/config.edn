@@ -13,8 +13,8 @@
  :rss-filters        ["cryogen"]
  :recent-posts       3
  :post-date-format   "yyyy-MM-dd"
- :sass-src           nil
- :sass-dest          nil
+ :sass-src           "css"
+ :sass-dest          "css"
  :sass-path          "sass"
  :compass-path       "compass"
  :theme              "rho"

@@ -5,16 +5,13 @@
     <title>{{ title }}{% block subtitle %}{% endblock %}</title>
     <link rel="canonical" href="{{site-url}}{{uri}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet'
-      type='text/css'>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     {% style "bower_components/bootstrap/dist/css/bootstrap.min.css" %}
     {% style "bower_components/fontawesome/css/font-awesome.min.css" %}
+    {% style "css/main.css" %}
   </head>
   <body>
     <div class="container body-wrapper">
-      <div class="container">
+      <div class="header">
         <div class="lead">
           Renate Horsch
         </div>
@@ -25,47 +22,28 @@
 
       <div class="row">
         <!-- Navigation -->
-        <div class="col-md-2">
-          <nav class="navbar navbar-toggleable-md navbar-transparent bg-ausruester">
-            <div class="container">
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item {% if home %}active{% endif %}">
-                    <a class="nav-link" href="{{index-uri}}">Home</a>
-                  </li>
-                  {% for nav-page in navbar-pages %}
-                  <li class="nav-item {% ifequal page.uri nav-page.uri %}active{% endifequal %}">
-                    <a class="nav-link" href="{{ nav-page.uri }}">{{ nav-page.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
+        <div class="col-md-3">
+          <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item {% if home %}active{% endif %}">
+                  <a class="nav-link" href="{{index-uri}}">Home</a>
+                </li>
+                {% for nav-page in navbar-pages %}
+                <li class="nav-item {% ifequal page.uri nav-page.uri %}active{% endifequal %}">
+                  <a class="nav-link" href="{{ nav-page.uri }}">{{ nav-page.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
-          </nav>
-          <nav class="navbar navbar-default">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav">
-
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div><!--/.container-fluid -->
           </nav>
         </div> <!-- /Navigation -->
 
         <!-- Content -->
-        <div class="col-md-10">
+        <div class="col-md-9">
           {% block content %}
           {% endblock %}
         </div> <!-- /Content -->

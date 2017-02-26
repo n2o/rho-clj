@@ -12,5 +12,7 @@
   :plugins [[lein-ring "0.9.7"]
             [lein-ancient "0.6.10"]]
   :main rho.core
+  :source-paths ["src"]
   :ring {:init rho.server/init
-         :handler rho.server/handler})
+         :handler rho.server/handler
+         :auto-refresh? true})
