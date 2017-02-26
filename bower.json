@@ -1,0 +1,23 @@
+{
+  "name": "rho-clj",
+  "authors": [
+    "Christian Meter <meter@cs.uni-duesseldorf.de>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4",
+    "fontawesome": "~4"
+  }
+}
