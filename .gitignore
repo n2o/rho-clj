@@ -97,6 +97,7 @@ ori
 .#*
 .zip
 bower_components
+.sass-cache
 
 pom.xml
 pom.xml.asc
