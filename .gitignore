@@ -98,6 +98,8 @@ ori
 .zip
 bower_components
 .sass-cache
+*.css
+*.css.map
 
 pom.xml
 pom.xml.asc
