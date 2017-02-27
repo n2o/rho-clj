@@ -8,12 +8,20 @@
       border-bottom: none
   a
     text-align: center
+    text-decoration: none
     font-size: 0.9em
     color: $red
     &:hover
+      background-color: rgb(255,255,220)
+      transition: background .5s linear
       text-decoration: underline
   .nav-item.active > a
     text-decoration: underline
 
 .navbar
   padding-top: 0
+
+.nav-item.submenu
+  background-color: #fcfcfc
+  a
+    font-size: 0.75em

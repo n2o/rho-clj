@@ -1,4 +1,4 @@
-{:title "Grundlagen Gesprächstherapie"
+{:title "Grundhaltungen Gesprächstherapie"
  :layout :page
  :page-index 3
  :navbar? false}

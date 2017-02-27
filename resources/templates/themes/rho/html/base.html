@@ -32,12 +32,18 @@
                 <li class="nav-item {% if home %}active{% endif %}">
                   <a class="nav-link" href="{{ index-uri }}">Home</a>
                 </li>
-                {{ page.uri }}
-                {% ifequal page.uri "/klassische_homoopathie/" %}foo{% endifequal %}
+
                 {% for nav-page in navbar-pages %}
                 <li class="nav-item {% ifequal page.uri nav-page.uri %}active{% endifequal %}">
                   <a class="nav-link" href="{{ nav-page.uri }}">{{ nav-page.title }}</a>
                 </li>
+                {% ifequal nav-page.uri "/klassische_homoopathie/" %}
+                  {% ifequal page.uri "/klassische_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                  {% ifequal page.uri "/kinder_und_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                  {% ifequal page.uri "/psychotherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                  {% ifequal page.uri "/medizinische_heilhyptnose/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                  {% ifequal page.uri "/grundhaltungen_gespraechstherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% endifequal %}
                 {% endfor %}
               </ul>
             </div>
@@ -51,7 +57,7 @@
               Sperberstr. 24<br>
               42859 Remscheid<br>
               02191 882197<br>
-              info@renate-horsch.de
+              <a href="/kontakt">info@renate-horsch.de</a>
             </p>
           </div>
 

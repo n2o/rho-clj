@@ -14,6 +14,15 @@ body
 
 a
   color: $red
+  text-decoration: underline
+  &:hover
+    background-color: rgb(255,255,220)
+    transition: background .5s linear
+    color: $red
+  &:active
+    color: $red
+  &:visited
+    color: $red
 
 h1, h2, h3, h4, h5, h6
   font-family: "Cantaneo"
@@ -60,7 +69,7 @@ figure > img
   p
     font-style: italic
   .author
-    color: #636c72 !important
+    color: $grey !important
     text-align: right
     margin-bottom: 0
 
