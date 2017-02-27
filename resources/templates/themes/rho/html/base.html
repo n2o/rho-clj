@@ -38,17 +38,17 @@
                   <a class="nav-link" href="{{ nav-page.uri }}">{{ nav-page.title }}</a>
                 </li>
                 {% ifequal nav-page.uri "/klassische_homoopathie/" %}
-                  {% ifequal page.uri "/klassische_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
-                  {% ifequal page.uri "/kinder_und_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
-                  {% ifequal page.uri "/psychotherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
-                  {% ifequal page.uri "/medizinische_heilhyptnose/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
-                  {% ifequal page.uri "/grundhaltungen_gespraechstherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% ifequal page.uri "/klassische_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% ifequal page.uri "/kinder_und_homoopathie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% ifequal page.uri "/psychotherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% ifequal page.uri "/medizinische_heilhyptnose/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
+                {% ifequal page.uri "/grundhaltungen_gespraechstherapie/" %}{% include "/html/heilverfahren_menu.html" %}{% endifequal %}
                 {% endifequal %}
                 {% endfor %}
               </ul>
             </div>
           </nav>
-          <div class="logo">
+          <div class="logo hidden-sm-down">
             <img class="img-fluid" alt="logo" src="/img/logo_160.png"/>
             <p>
               Heilpraktikerin für Kinder und Erwachsene
@@ -60,7 +60,6 @@
               <a href="/kontakt">info@renate-horsch.de</a>
             </p>
           </div>
-
         </div> <!-- /Navigation -->
 
         <!-- Content -->

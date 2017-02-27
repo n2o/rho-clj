@@ -5,7 +5,7 @@
 
 # Kontakt
 
-<form action="//formspree.io/cmeter@gmail.com" method="POST">
+<form action="//formspree.io/kontakt@renate-horsch.de" method="POST">
   <div class="form-group">
   <label for="name">Name *</label>
   <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
@@ -26,6 +26,9 @@
   <input type="hidden" name="_next" value="/danke" />
   <button type="submit" value="Send" class="btn btn-default">Abschicken</button>
 </form>
+
+## E-Mail
+[info@renate-horsch.de](mailto:info@renate-horsch.de)
 
 ## Telefon
 02191 / 882197  

@@ -17,3 +17,23 @@
   <img class="quali" alt="qualified" src="/img/quali.png"/>
   </div>
 </div>
+
+
+<hr class="hidden-md-up"/>
+
+<div class="row hidden-md-up">
+  <div class="col-md-3 col-sm-3 col-3">
+  <img class="img-fluid" alt="logo" src="/img/logo_160.png"/>    
+  </div>
+  <div class="col-md-9 col-sm-9 col-9">
+  <p>
+  Heilpraktikerin für Kinder und Erwachsene
+  </p>
+  <p>
+  Sperberstr. 24<br>
+  42859 Remscheid<br>
+  02191 882197<br>
+  <a href="/kontakt">info@renate-horsch.de</a>
+  </p>
+  </div>
+</div>
