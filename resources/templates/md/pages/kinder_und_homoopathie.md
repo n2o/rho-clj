@@ -1,7 +1,7 @@
 {:title "Kinder und Homöopathie"
  :layout :page
- :page-index 3
- :navbar? true}
+ :page-index 22
+ :navbar? false}
 
 # Kinder und Homöopathie
 

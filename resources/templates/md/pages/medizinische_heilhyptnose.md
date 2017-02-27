@@ -1,7 +1,7 @@
 {:title "Medizinische Heilhyptnose"
  :layout :page
- :page-index 4
- :navbar? true}
+ :page-index 23
+ :navbar? false}
 
 # Medizinische Heilhyptnose
 

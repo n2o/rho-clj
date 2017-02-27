@@ -1,6 +1,6 @@
-{:title "Klassische Homöopathie"
+{:title "Heilverfahren"
  :layout :page
- :page-index 2
+ :page-index 20
  :navbar? true}
 
 # Klassische Homöopathie

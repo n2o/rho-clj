@@ -1,7 +1,7 @@
 {:title "Psychotherapie"
  :layout :page
- :page-index 3
- :navbar? true}
+ :page-index 21
+ :navbar? false}
 
 # Psychotherapie
 

@@ -1,6 +1,6 @@
 {:title "Biografie"
  :layout :page
- :page-index 1
+ :page-index 10
  :navbar? true}
 
 # Biografie
@@ -8,7 +8,7 @@
 <img class="img-thumbnail float-right" alt="rh" src="/img/portrait.jpg"/>
 
 Geboren am 29.01.1950, verheiratet, 1 Sohn  
-Schulabschluss: mittlere Reife, Lehre als Rechtsanwalts- und Notargehilfin
+Schulabschluss: mittlere Reife, Lehre als Rechtsanwalts- und Notargehilfin.
 
 Aufgrund eines Nahtoderlebnisses 1986 totale Umorientierung, sowohl beruflich als auch privat.
 

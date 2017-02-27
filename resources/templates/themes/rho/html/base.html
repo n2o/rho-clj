@@ -32,6 +32,8 @@
                 <li class="nav-item {% if home %}active{% endif %}">
                   <a class="nav-link" href="{{ index-uri }}">Home</a>
                 </li>
+                {{ page.uri }}
+                {% ifequal page.uri "/klassische_homoopathie/" %}foo{% endifequal %}
                 {% for nav-page in navbar-pages %}
                 <li class="nav-item {% ifequal page.uri nav-page.uri %}active{% endifequal %}">
                   <a class="nav-link" href="{{ nav-page.uri }}">{{ nav-page.title }}</a>
@@ -40,6 +42,19 @@
               </ul>
             </div>
           </nav>
+          <div class="logo">
+            <img class="img-fluid" alt="logo" src="/img/logo_160.png"/>
+            <p>
+              Heilpraktikerin für Kinder und Erwachsene
+            </p>
+            <p>
+              Sperberstr. 24<br>
+              42859 Remscheid<br>
+              02191 882197<br>
+              info@renate-horsch.de
+            </p>
+          </div>
+
         </div> <!-- /Navigation -->
 
         <!-- Content -->
