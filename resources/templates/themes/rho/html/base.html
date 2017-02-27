@@ -15,22 +15,22 @@
         <div class="lead">
           Renate Horsch
         </div>
-        <div class="subheading">
+        <div class="subheading text-right">
           Praxis für Klassische Homöopathie, Gesprächstherapie, medizinische Heilhypnose
         </div>
       </div>
 
       <div class="row">
         <!-- Navigation -->
-        <div class="col-md-3">
-          <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <div class="col-md-2">
+          <nav class="navbar navbar-toggleable-md navbar-light">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-rho mr-auto">
                 <li class="nav-item {% if home %}active{% endif %}">
-                  <a class="nav-link" href="{{index-uri}}">Home</a>
+                  <a class="nav-link" href="{{ index-uri }}">Home</a>
                 </li>
                 {% for nav-page in navbar-pages %}
                 <li class="nav-item {% ifequal page.uri nav-page.uri %}active{% endifequal %}">
@@ -43,9 +43,13 @@
         </div> <!-- /Navigation -->
 
         <!-- Content -->
-        <div class="col-md-9">
-          {% block content %}
-          {% endblock %}
+        <div class="col-md-10">
+          <div class="card">
+            <div class="card-block">
+              {% block content %}
+              {% endblock %}
+            </div>
+          </div>
         </div> <!-- /Content -->
       </div>
 
