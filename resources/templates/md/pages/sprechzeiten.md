@@ -8,7 +8,6 @@
 Termine nur nach telefonischer Vereinbarung.
 
 Montag bis Donnerstag  
-10.00 Uhr bis 18.00 Uhr  
 Für Berufstätige sind auch Termine nach 18.00 Uhr möglich.
 
 Telefon: 02191 882197
