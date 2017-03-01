@@ -21,6 +21,3 @@ Klassischen Homöopathie.
 
 Die Beratung erstreckt sich auch auf die Hilfe bei Schul– und
 Erziehungsproblemen von Kindern sowie Lebensberatung im Allgemeinen.
-
-Weitere Informationen:
-[Die Grundhaltungen der Personenkonzentrierten Gesprächstherapie](/grundlagen_gespraechstherapie)

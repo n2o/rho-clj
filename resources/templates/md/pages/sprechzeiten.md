@@ -5,9 +5,7 @@
 
 # Sprechzeiten
 
-Termine nur nach telefonischer Vereinbarung.
-
-Montag bis Donnerstag  
+Termine nur nach telefonischer Vereinbarung.  
 Für Berufstätige sind auch Termine nach 18.00 Uhr möglich.
 
 Telefon: 02191 882197
